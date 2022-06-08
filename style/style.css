@@ -1,0 +1,73 @@
+body{
+    background: #ccc;
+    margin: auto;
+    max-width:  900px;
+
+}
+
+.img-perfil{
+ width: 200px;
+ height: 200px;
+ border: 3px solid #505050;
+ border-radius: 50%;
+}
+
+#titulo-1 , .titulo-2, .titulo-3{
+    color: #505050;
+}
+#titulo-1{
+    text-transform: uppercase;
+}
+.titulo-2{
+    font-family: Verdana ;
+}
+.titulo-3{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    margin: 0;
+    font-size: 15px;
+}
+.post-article{
+    margin: 0;
+    background: white;
+    padding: 13px;
+    border: 3px solid #faf;
+    border-radius: 80px 80px  35px 35px;
+    margin-bottom: 10px;
+}
+
+.post-img{
+    margin-bottom: 15px;
+    border: 7px inset #2344;
+    border-radius: 25px;
+}
+
+.post-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+     text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.post-text a{
+    text-decoration: line-through;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding-left: 14px;
+}
+.contact-list li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.list-ordenad{
+    list-style-type: upper-roman;
+    padding: 0;
+    padding-left: 30px;
+}
